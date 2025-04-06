@@ -6,6 +6,12 @@ document.querySelectorAll('.channel').forEach(channel => {
         
         const channelName = this.textContent.trim().substring(1);
         document.querySelector('.content-title').textContent = channelName;
+
+        const sectionId = channelName;
+        const section = document.getElementById(sectionId);
+        if(section) {
+            section.scrollIntoView({ behavior: 'smooth'});
+        }
     });
 });
 

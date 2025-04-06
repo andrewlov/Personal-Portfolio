@@ -12,6 +12,7 @@
     --discord-yellow: #FEE75C;
     --discord-fuschia: #EB459E;
     --discord-red: #ED4245;
+    --discord-orange: #FFA500;
 }
 
 * {
@@ -323,6 +324,26 @@ body {
     background-color: var(--discord-blurple);
     border-radius: 50%;
     margin-right: 8px;
+}
+
+.skill-icon.green {
+    background-color: var(--discord-green);
+}
+
+.skill-icon.yellow {
+    background-color: var(--discord-yellow);
+}
+
+.skill-icon.red {
+    background-color: var(--discord-red);
+}
+
+.skill-icon.fuschia {
+    background-color: var(--discord-fuschia);
+}
+
+.skill-icon.orange {
+    background-color: var(--discord-orange);
 }
 
 .contact-links {
